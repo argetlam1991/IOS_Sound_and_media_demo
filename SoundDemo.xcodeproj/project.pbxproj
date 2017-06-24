@@ -13,6 +13,9 @@
 		48FEEA731EFCC5D300E255B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FEEA711EFCC5D300E255B0 /* Main.storyboard */; };
 		48FEEA751EFCC5D300E255B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FEEA741EFCC5D300E255B0 /* Assets.xcassets */; };
 		48FEEA781EFCC5D300E255B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FEEA761EFCC5D300E255B0 /* LaunchScreen.storyboard */; };
+		48FEEA831EFCCD7600E255B0 /* sampleB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48FEEA811EFCCD7600E255B0 /* sampleB.wav */; };
+		48FEEA841EFCCD7600E255B0 /* sampleA.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48FEEA821EFCCD7600E255B0 /* sampleA.wav */; };
+		48FEEA861EFE081300E255B0 /* sampleC.wav in Resources */ = {isa = PBXBuildFile; fileRef = 48FEEA851EFE081300E255B0 /* sampleC.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		48FEEA741EFCC5D300E255B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48FEEA771EFCC5D300E255B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48FEEA791EFCC5D300E255B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48FEEA811EFCCD7600E255B0 /* sampleB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sampleB.wav; sourceTree = "<group>"; };
+		48FEEA821EFCCD7600E255B0 /* sampleA.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sampleA.wav; sourceTree = "<group>"; };
+		48FEEA851EFE081300E255B0 /* sampleC.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sampleC.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		48FEEA671EFCC5D300E255B0 /* SoundDemo */ = {
 			isa = PBXGroup;
 			children = (
+				48FEEA801EFCCD5E00E255B0 /* sound */,
 				48FEEA6B1EFCC5D300E255B0 /* AppDelegate.h */,
 				48FEEA6C1EFCC5D300E255B0 /* AppDelegate.m */,
 				48FEEA6E1EFCC5D300E255B0 /* ViewController.h */,
@@ -77,6 +84,16 @@
 				48FEEA691EFCC5D300E255B0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48FEEA801EFCCD5E00E255B0 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				48FEEA811EFCCD7600E255B0 /* sampleB.wav */,
+				48FEEA851EFE081300E255B0 /* sampleC.wav */,
+				48FEEA821EFCCD7600E255B0 /* sampleA.wav */,
+			);
+			name = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +155,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48FEEA841EFCCD7600E255B0 /* sampleA.wav in Resources */,
 				48FEEA781EFCC5D300E255B0 /* LaunchScreen.storyboard in Resources */,
+				48FEEA861EFE081300E255B0 /* sampleC.wav in Resources */,
 				48FEEA751EFCC5D300E255B0 /* Assets.xcassets in Resources */,
 				48FEEA731EFCC5D300E255B0 /* Main.storyboard in Resources */,
+				48FEEA831EFCCD7600E255B0 /* sampleB.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
